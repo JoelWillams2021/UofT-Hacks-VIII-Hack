@@ -3,6 +3,6 @@ from django.shortcuts import render, redirect
 def render_home_page(request):
     return render(request, 'Home_Page/homepage.html')
 
-def School(request):
-    response = redirect('/School')
+def forums(request):
+    response = redirect('/forums')
     return response

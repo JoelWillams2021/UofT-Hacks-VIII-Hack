@@ -1,12 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec1f5a2e-fb2a-401e-8f81-2d19716b0d46" name="Default Changelist" comment="Adding Home Page app">
-      <change afterPath="$PROJECT_DIR$/Hackathon/Home_Page/urls.py" afterDir="false" />
+    <list default="true" id="ec1f5a2e-fb2a-401e-8f81-2d19716b0d46" name="Default Changelist" comment="Adding Home page app">
+      <change afterPath="$PROJECT_DIR$/Hackathon/Forums/templates/Home_Page/forums.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Hackathon/Forums/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML &amp; CSS/feedback.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Hackathon/Home_Page/static/Home_Page/feedback.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML &amp; CSS/homepage.css" beforeDir="false" afterPath="$PROJECT_DIR$/Hackathon/Home_Page/static/Home_Page/homepage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML &amp; CSS/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/Hackathon/Home_Page/templates/Home_Page/homepage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hackathon/Hackathon/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hackathon/Hackathon/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hackathon/Hackathon/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hackathon/Hackathon/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hackathon/Home_Page/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hackathon/Home_Page/views.py" afterDir="false" />
@@ -20,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -32,6 +31,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
@@ -64,7 +64,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613796636876</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Adding Home page app">
+      <created>1613801250817</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1613801250817</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -81,6 +88,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
     <MESSAGE value="Adding Home Page app" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding Home Page app" />
+    <MESSAGE value="Adding Home page app" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Home page app" />
   </component>
 </project>
