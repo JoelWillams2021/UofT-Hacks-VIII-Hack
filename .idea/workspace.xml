@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec1f5a2e-fb2a-401e-8f81-2d19716b0d46" name="Default Changelist" comment="Adding Home page app" />
+    <list default="true" id="ec1f5a2e-fb2a-401e-8f81-2d19716b0d46" name="Default Changelist" comment="Adding Home page app">
+      <change afterPath="$PROJECT_DIR$/Hackathon/Forums/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hackathon/Forums/templates/Forums/forums.html" beforeDir="false" afterPath="$PROJECT_DIR$/Hackathon/Forums/templates/Forums/forums.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hackathon/Forums/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hackathon/Forums/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
