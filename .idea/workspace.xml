@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec1f5a2e-fb2a-401e-8f81-2d19716b0d46" name="Default Changelist" comment="Adding Home page app">
-      <change beforePath="$PROJECT_DIR$/Hackathon/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/Hackathon/db.sqlite3" afterDir="false" />
-    </list>
+    <list default="true" id="ec1f5a2e-fb2a-401e-8f81-2d19716b0d46" name="Default Changelist" comment="Adding Community page app" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,6 +25,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ChangesTree.GroupingKeys" value="directory" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -84,7 +83,21 @@
       <option name="project" value="LOCAL" />
       <updated>1613801250817</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Adding Community page app">
+      <created>1613850800009</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1613850800009</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Adding Community page app">
+      <created>1613850983177</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1613850983177</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -103,6 +116,7 @@
     <MESSAGE value="test" />
     <MESSAGE value="Adding Home Page app" />
     <MESSAGE value="Adding Home page app" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding Home page app" />
+    <MESSAGE value="Adding Community page app" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Community page app" />
   </component>
 </project>
