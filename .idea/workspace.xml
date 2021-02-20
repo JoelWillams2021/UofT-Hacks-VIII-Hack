@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec1f5a2e-fb2a-401e-8f81-2d19716b0d46" name="Default Changelist" comment="Adding Community page app">
-      <change beforePath="$PROJECT_DIR$/Hackathon/Forums/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hackathon/Forums/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hackathon/Forums/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hackathon/Forums/urls.py" afterDir="false" />
+    <list default="true" id="ec1f5a2e-fb2a-401e-8f81-2d19716b0d46" name="Default Changelist" comment="Adding Home page app">
+      <change afterPath="$PROJECT_DIR$/app.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,15 +28,16 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ChangesTree.GroupingKeys" value="directory" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Hackathon/Forums" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\James Widjaja\OneDrive\Code\UofT-Hacks-VIII-Hack\Hackathon\Forums" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Michael\PycharmProjects\UofT-Hacks-VIII-Hack\Hackathon\Community_Page" />
       <recent name="C:\Users\Michael\PycharmProjects\UofT-Hacks-VIII-Hack\Hackathon\Home_Page\static\Home_Page" />
       <recent name="C:\Users\Michael\PycharmProjects\UofT-Hacks-VIII-Hack\Hackathon\Home_Page\templates\Home_Page" />
     </key>
@@ -53,7 +54,7 @@
       </list>
     </option>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -86,28 +87,7 @@
       <option name="project" value="LOCAL" />
       <updated>1613801250817</updated>
     </task>
-    <task id="LOCAL-00004" summary="Adding Community page app">
-      <created>1613850800009</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1613850800009</updated>
-    </task>
-    <task id="LOCAL-00005" summary="Adding Community page app">
-      <created>1613850983177</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1613850983177</updated>
-    </task>
-    <task id="LOCAL-00006" summary="Adding Community page app">
-      <created>1613851138216</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1613851138217</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -115,18 +95,28 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
     <MESSAGE value="Adding Home Page app" />
     <MESSAGE value="Adding Home page app" />
-    <MESSAGE value="Adding Community page app" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding Community page app" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Home page app" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="525" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1613809695647">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="525" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1613809695647" />
+    <state x="463" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1613809383112">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="463" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1613809383112" />
   </component>
 </project>
