@@ -8,7 +8,7 @@
 <h1>Current Topics</h1>
     {% if topic_list %}
         {% for topic in topic_list %}
-            <h2>{{topic.topic_name}}</h2>
+<h2><a href="{{topic.id}}">{{topic.topic_name}}</a></h2>
             <p>{{topic.topic_description}}</p>
         {% endfor %}
     {% endif %}

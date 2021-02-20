@@ -5,6 +5,10 @@
     <title>Title</title>
 </head>
 <body>
-
+<h1>{{topic.topic_name}}</h1>
+<p>{{topic.topic_description}}</p>
+{% for subtopic in subtopics %}
+    <h2>{{subtopic.subtopic_name}}</h2>
+{% endfor %}
 </body>
 </html>

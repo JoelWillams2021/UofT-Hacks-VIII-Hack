@@ -12,10 +12,10 @@ class Topic(models.Model):
 
 class Subtopic(models.Model):
     topic = models.ForeignKey(Topic, on_delete=models.CASCADE)
-    subtopic_text = models.CharField(max_length=100)
+    subtopic_name = models.CharField(max_length=100)
 
     def __str__(self):
-        return self.subtopic_text
+        return self.subtopic_name
 
 
 class Suggestion(models.Model):
