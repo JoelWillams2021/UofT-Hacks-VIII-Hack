@@ -5,6 +5,14 @@
     <title>Forums</title>
 </head>
 <body>
-Temporary Forums HTML
+<h1>Current Topics</h1>
+    {% if topic_list %}
+        {% for topic in topic_list %}
+            <h2>{{topic.topic_name}}</h2>
+            <p>{{topic.topic_description}}</p>
+        {% endfor %}
+    {% endif %}
+
+
 </body>
 </html>
