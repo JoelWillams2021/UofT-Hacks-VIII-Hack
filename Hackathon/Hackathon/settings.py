@@ -25,8 +25,7 @@ SECRET_KEY = 'qd@yk@_c6ghk0ol+=!eice@oat(4f@nr4z2auy_+!0&!$xc+90'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+ALLOWED_HOSTS = ['164.90.131.49','localhost']
 
 # Application definition
 
@@ -76,11 +75,15 @@ WSGI_APPLICATION = 'Hackathon.wsgi.application'
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
-}
+            'default': {
+                 'ENGINE': 'django.db.backends.postgresql_psycopg2',
+                 'NAME': 'eduforum',
+                 'USER': 'superuser',
+                 'PASSWORD': 'hacks2021a',
+                                                        'HOST': 'localhost',
+                                                                'PORT': '',
+                                                                    }
+            }
 
 
 # Password validation
@@ -120,3 +123,5 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
+import os
+STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
