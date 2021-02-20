@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec1f5a2e-fb2a-401e-8f81-2d19716b0d46" name="Default Changelist" comment="Adding Home page app">
-      <change afterPath="$PROJECT_DIR$/Hackathon/Forums/static/Forums/forumnav.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hackathon/Forums/static/Forums/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-02-20_2_47_p_m___Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021-02-20_2_47_p_m___Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hackathon/Forums/templates/Forums/forums.html" beforeDir="false" afterPath="$PROJECT_DIR$/Hackathon/Forums/templates/Forums/forums.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hackathon/Home_Page/templates/Home_Page/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/Hackathon/Home_Page/templates/Home_Page/homepage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/app.yaml" afterDir="false" />
-    </list>
+    <list default="true" id="ec1f5a2e-fb2a-401e-8f81-2d19716b0d46" name="Default Changelist" comment="Adding Home page app" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

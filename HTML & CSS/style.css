@@ -1,0 +1,169 @@
+/* global */
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 14px;
+    font-family: 'Titillium Web', sans-serif;
+    background-color: #536cc5;
+    color: #fefefe;
+}
+
+a{
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+h1{
+    font-size:16px;
+    font-weight:bolder;
+}
+
+.container{
+    margin: 20px;
+    padding: 20px;
+}
+
+.subforum{
+    margin-top: 20px;
+}
+
+.subforum-title{
+    background-color: #282e42;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 4px;
+}
+
+.subforum-row{
+    display: grid;
+    grid-template-columns: 7% 60% 13% 20%;
+}
+
+.subforum-column{
+    padding: 10px;
+    margin: 4px;
+    border-radius: 5px;
+    background-color: #111314;
+}
+
+.subforum-description *{
+    margin-block: 0;
+}
+
+center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subforum-icon i{
+    font-size: 45px;
+}
+
+.subforum-devider{
+    display: none;
+}
+
+/*For phone*/
+@media screen and (max-width: 460){
+    .container{
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .subforum-row{
+        display: grid;
+        grid-template-columns: 25% 75%;
+        grid-template-rows: 65% 35%;
+    }
+    
+}
+
+/*Navbar*/
+
+header{
+    margin-inline: 10px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+}
+
+.navigation{
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    width: 65%;
+    display: inline-block;
+    border-radius: 5px;
+    max-height: 80px;
+    margin-right: 10px;
+}
+
+.nav-list{
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.nav-item{
+    float: right;
+    display: block;
+    text-align: center;
+    margin-inline: 20px;
+    font-size: 20px;
+    padding: 10px;
+    color: #fefefe;
+}
+
+.nav-item a:hover{
+    background-color :rgba(0, 0, 0, 0.2)
+}
+
+.close-icon i{
+    font-size: 60px;
+    float: left;
+    cursor: pointer;
+}
+
+.hide{
+    display: none;
+}
+
+.bar-icon{
+    font-size: 60px;
+    display: inline-block;
+    margin-right: 10px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.brand{
+    font-family: 'Poppins';
+    font-size: 60px;
+    display: inline-block;
+}
+
+/* forum info Styling */
+.forum-info{
+    padding: 20px;
+    background-color: #111314;
+}
+
+.chart{
+    font-size:20px;
+    font-weight:bold;
+}
+/* Footer Styling */
+
+footer{
+    margin-top: 20px;
+    padding: 20px;
+    background-color:  #282e42;
+    display: block;
+    text-align: center;
+}
+
