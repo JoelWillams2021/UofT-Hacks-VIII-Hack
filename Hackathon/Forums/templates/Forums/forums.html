@@ -58,6 +58,13 @@
             {% endfor %}
         </div>
     {% endif %}
+        <div class="subforum-column">
+                   <form action="/submit_topic/" method="post">
+                    {% csrf_token %}
+                    {{ form }}
+                <input type="submit" value="Submit">
+                </form>
+               </div>
     </div>
     <script src="{% static 'Forums/forumnav.js' %}"></script>
 </body>
