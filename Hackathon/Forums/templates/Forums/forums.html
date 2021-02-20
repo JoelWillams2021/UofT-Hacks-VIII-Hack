@@ -1,18 +1,64 @@
+{%  load static  %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Forums</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forum</title>
+    <link rel="stylesheet" href="{% static 'Forums/style.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital@1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-<h1>Current Topics</h1>
+    <header>
+        <div class="navbar">
+            <nav class="navigation hide" id="navigation">
+                <span class="close-icon" id="close-icon" onclick="showIconBar()"><i class="fa fa-close"></i></span>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#">Forum</a>
+                    </li>
+                </ul>
+            </nav>
+            <a class="bar-icon" id="iconBar" onclick="hideIconBar()"><i class="fa fa-bars"></i></a>
+            <div class="brand">Student Forum</div>
+        </div>
+    </header>
     {% if topic_list %}
-        {% for topic in topic_list %}
-<h2><a href="{{topic.id}}">{{topic.topic_name}}</a></h2>
-            <p>{{topic.topic_description}}</p>
-        {% endfor %}
+    <div class="container">
+        <div class="subforum">
+            <div class="subforum-title">
+                <h1>General</h1>
+            </div>
+            {% for topic in topic_list %}
+            <div class="subforum-row">
+                <div class="subforum-icon">
+                    <i class="fa fa-car"></i>
+                </div>
+               <div class="subforum-description subforum-column">
+                   <h1><a href="{{topic.id}}">{{topic.topic_name}}</a></h1>
+                   <p>{{topic.topic_description}}</p>
+               </div>
+               <div class="subforum-stats subforum-column center">
+                   <span>23 Post | 15 Topics</span>
+               </div>
+               <div class="subforum-info subforum-column">
+                   <b><a href="">Last Post</a></b> by <a href="">User</a>
+                   <br>
+                   on <small>Date</small>
+               </div>
+            </div>
+            {% endfor %}
+        </div>
     {% endif %}
-
-
+    </div>
+    <script src="{% static 'Forums/forumnav.js' %}"></script>
 </body>
 </html>
