@@ -1,5 +1,11 @@
 from django import forms
-from .models import Topic, Subtopic, Suggestion
+from .models import Topic, Subtopic, Suggestion, Community
+
+
+class CommunityForm(forms.ModelForm):
+    class Meta:
+        model = Community
+        fields = "__all__"
 
 
 class TopicForm(forms.ModelForm):
