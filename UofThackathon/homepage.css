@@ -8,7 +8,7 @@ body {
 /* Styling image class*/
 .Homepage_image {
 	position: absolute;	
-	left: 378px;
+	left: 328px;
 	top: 97px;
 }
 
@@ -17,7 +17,7 @@ body {
 	position: relative;
 	width: 1422px;
 	height: 145px;
-	left: 275px;
+	left: 465px;
 	top: 407px;
 	font-family: Poppins;
 	font-style: normal;
@@ -32,8 +32,8 @@ body {
 	position: absolute;
 	width: 1684px;
 	height: 143px;
-	left: 523px;
-	top: 540px;
+	left: 473px;
+	top: 510px;
 	font-family: Poppins;
 	font-style: normal;
 	font-weight: 900;
@@ -43,13 +43,29 @@ body {
 	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
 /* Styling forum_text class*/
 .forum_text {
 	position: absolute;
 	width: 702px;
 	height: 158px;
-	left: 716px;
-	top: 794px;
+	left: 668px;
+	top: 744px;
 	font-family: Poppins;
 	font-style: normal;
 	font-weight: 900;
@@ -63,7 +79,7 @@ body {
 	position: absolute;
 	width: 160px;
 	height: 0px;
-	left: 711px;
+	left: 664px;
 	top: 903px;
 	border: 5px solid #F7ECEC;
 	transform: rotate(0.37deg);
