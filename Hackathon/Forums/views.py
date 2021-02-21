@@ -15,17 +15,26 @@ def render_community_page(request):
 def render_forums_view(request, community_id):
     community = get_object_or_404(Community, pk=community_id)
     topic_list = community.topic_set.all()
-    return render(request, 'Forums/forums.html', {"community": community,
+    return render(request, 'Forums/index.html', {"community": community,
                                                   "topic_list": topic_list})
 
 
 def render_topic_view(request, community_id, topic_id):
     community = get_object_or_404(Community, pk=community_id)
     topic = get_object_or_404(Topic, pk=topic_id)
+    if request.method == "POST":
+        form = TopicForm(request.post)
+        if form.is_valid():
+            new_topic = form.save(commit=False)
+            new_topic.save()
+            return HttpResponseRedirect("/")
+    else:
+        form = TopicForm()
     subtopics = topic.subtopic_set.all()
     return render(request, 'Forums/topic_view.html', {"community": community,
                                                       "topic": topic,
-                                                      "subtopics": subtopics})
+                                                      "subtopics": subtopics,
+                                                      "form": form})
 
 
 def render_subtopic_view(request, subtopic_id):

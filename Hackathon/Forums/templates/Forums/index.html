@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forum</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="{% static 'Forums/style.css' %}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital@1&display=swap" rel="stylesheet">
@@ -20,17 +21,18 @@
                 <span class="close-icon" id="close-icon" onclick="showIconBar()"><i class="fa fa-close"></i></span>
                 <ul class="nav-list">
                     <li class="nav-item">
-                        <a href="homepage.html">Home</a>
+                        <a href="{% url 'home_page' %}">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="join_a_community_page.html">Community</a>
+                        <a href="{% url 'forums' %}">Communities</a>
                     </li>
                 </ul>
             </nav>
             <a class="bar-icon" id="iconBar" onclick="hideIconBar()"><i class="fa fa-bars"></i></a>
-            <div class="brand"> Univeristy of Toronto Forum</div>
+            <div class="brand">{{community.community_name}}</div>
         </div>
     </header>
+
     <div class="container">
         <div class="subforum">
             <div class="subforum-title">
@@ -41,7 +43,7 @@
                     <i class="fa fa-book"></i>
                 </div>
                <div class="subforum-description subforum-column">
-                   <h1><a href=""> Increasing School Hours</a></h1>
+                   <h1><a href="1/1"> Increasing School Hours</a></h1>
                    <p>I really love school and wish it was longer so I can cherish it even more! </p>
                </div>
                <div class="subforum-stats subforum-column center">
@@ -64,7 +66,7 @@
                     <i class="fa fa-book"></i>
                 </div>
                <div class="subforum-description subforum-column">
-                   <h1><a href="">More Mental Health Resources</a></h1>
+                   <h1><a href="1/3">More Mental Health Resources</a></h1>
                    <p>As it's exam season I would like more mental health resources pls!</p>
                    <div class="voting">
                        <button id="likebtn">
@@ -214,10 +216,16 @@
         <span>Latest post: <b><a href="">Random post</a></b> on Dec 15 2021 By <a href="">RandomUser</a></span>.<br>
         <span>Check <a href="">the latest posts</a> .</span><br>
     </div>
-
+    <div class="subforum-column">
+                       <form action="/submit_topic/" method="post">
+                        {% csrf_token %}
+                        {{ form }}
+                    <input type="submit" value="Submit">
+                    </form>
+                   </div>
     <footer>
         <span>&copy;  EduForums | All Rights Reserved</span>
     </footer>
-    <script src="forumnav.js"></script>
+    <script src="{% static 'Forums/forumnav.js' %}"></script>
 </body>
 </html>
