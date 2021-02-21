@@ -59,17 +59,33 @@ body {
 	top: 409px;
 }
 
+/* Community_card_text hyperlink styling (decoration) */
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
 /* Community_card_text class styling */
 .Community_card_text{
 	position: absolute;
 	width: 425px;
 	height: 108px;
-	left: 195px;
+	left: 240px;
 	top: 643px;
 	font-family: Poppins;
 	font-style: normal;
 	font-weight: bold;
-	font-size: 36px;
+	font-size: 28px;
 	line-height: 54px;
 	color: #000000;
 	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -110,3 +126,11 @@ body {
 	color: #000000;
 	filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
+
+.Back_button{
+	position: absolute;
+	left: 50px;
+	top: 53px;
+
+}
+
