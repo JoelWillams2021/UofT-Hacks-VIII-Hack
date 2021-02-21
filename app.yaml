@@ -6,7 +6,6 @@ env_variables:
   BUCKET_NAME: "example-gcs-bucket"
 
 handlers:
-# Matches requests to /images/... to files in static/images/...
 - url: /static
     static_dir: static/
 

@@ -1,11 +1,21 @@
-from django.shortcuts import render, get_object_or_404
+from django.shortcuts import render, get_object_or_404, HttpResponseRedirect
 from .models import Topic, Subtopic
+from .forms import TopicForm
 
 
 # Create your views here.
 def render_forums_view(request):
     topic_list = Topic.objects.order_by("pub_date")
-    return render(request, 'Forums/forums.html', {"topic_list": topic_list})
+    if request.method == "POST":
+        form = TopicForm(request.post)
+        if form.is_valid():
+            new_topic = form.save(commit=False)
+            new_topic.save()
+            return HttpResponseRedirect("/")
+    else:
+        form = TopicForm()
+    return render(request, 'Forums/forums.html', {"topic_list": topic_list,
+                                                  'form': form})
 
 
 def render_topic_view(request, topic_id):
