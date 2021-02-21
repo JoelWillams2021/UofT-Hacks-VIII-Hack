@@ -3,9 +3,8 @@
 <html lang ="en">
 <head>
 <meta charset = "UTF-8" />
-<link href= "{% static 'Community_Page/join_a_community_page.css' %}" rel="stylesheet" type=text/css>
+<link href= "{% static 'Forums/join_a_community_page.css' %}" rel="stylesheet" type=text/css>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href= "join_a_community_page.css" rel="stylesheet" type=text/css>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
 <style>
 
@@ -29,12 +28,12 @@
 
 	<!-- Community card image class Set Up -->
 	<div class = "Community_card_image">
-		<img src="{% static 'Community_Page/community.svg' %}" alt ="community">
+		<img src="{% static 'Forums/community.svg' %}" alt ="community">
 	</div>
 
 	<!-- Community card text class Set Up -->
 	<div class = "Community_card_text">
-		<a href="{% url 'forums' %}"> {{Uoft}} </a>
+		<a href="{{Uoft.id}}"> {{Uoft}} </a>
 	</div>
 
 	<!-- Community card class Set Up -->
@@ -43,19 +42,21 @@
 
 	<!-- Community card image class Set Up -->
 	<div class = "Community_card_image_duplicate">
-		<img src="{% static 'Community_Page/school_board_icon.png' %}" alt ="School board icon">
+		<img src="{% static 'Forums/school_board_icon.png' %}" alt ="School board icon">
 	</div>
 
 	<!-- Community card text class Set Up -->
 	<div class = "Community_card_text_duplicate">
-		<a href="{% url 'forums' %}"> {{HDSB}} </a>
+		<a href="{{HDSB.id}}"> {{HDSB}} </a>
 	</div>
 
+<!-- Back button Class Set Up -->
+	<div class = "Back_button">
+		<a href= "{% url 'home_page' %}">
+		<img src="{% static 'Forums/back_button.png' %}" alt ="back_button">
+		</a>
+	</div>
 
-
-
-	
-	
 
 
 

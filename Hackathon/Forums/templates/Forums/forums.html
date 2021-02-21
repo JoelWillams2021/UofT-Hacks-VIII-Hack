@@ -23,12 +23,12 @@
                         <a href="{% url 'home_page' %}">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a href="{% url 'community_page' %}">Communities</a>
+                        <a href="{% url 'forums' %}">Communities</a>
                     </li>
                 </ul>
             </nav>
             <a class="bar-icon" id="iconBar" onclick="hideIconBar()"><i class="fa fa-bars"></i></a>
-            <div class="brand">Student Forum</div>
+            <div class="brand">{{community.community_name}}</div>
         </div>
     </header>
     {% if topic_list %}
@@ -43,7 +43,7 @@
                     <i class="fa fa-car"></i>
                 </div>
                <div class="subforum-description subforum-column">
-                   <h1><a href="{{topic.id}}">{{topic.topic_name}}</a></h1>
+                   <h1><a href="{{community.id}}/{{topic.id}}">{{topic.topic_name}}</a></h1>
                    <p>{{topic.topic_description}}</p>
                </div>
                <div class="subforum-stats subforum-column center">
