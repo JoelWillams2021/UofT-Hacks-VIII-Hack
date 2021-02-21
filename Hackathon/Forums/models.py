@@ -11,10 +11,8 @@ class Community(models.Model):
 
 
 class Topic(models.Model):
-    community = models.ForeignKey(Community, on_delete=models.CASCADE)
     topic_name = models.CharField(max_length=100)
     topic_description = models.CharField(max_length=1000)
-    pub_date = models.DateTimeField('date published')
 
     def __str__(self):
         return self.topic_name
