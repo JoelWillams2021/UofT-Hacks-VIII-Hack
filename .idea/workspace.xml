@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec1f5a2e-fb2a-401e-8f81-2d19716b0d46" name="Default Changelist" comment="Adding Home page app">
-      <change afterPath="$PROJECT_DIR$/app.yaml" afterDir="false" />
+    <list default="true" id="ec1f5a2e-fb2a-401e-8f81-2d19716b0d46" name="Default Changelist" comment="Updating Hackathon">
+      <change afterPath="$PROJECT_DIR$/Hackathon/Community_Page/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML &amp; CSS/community.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Hackathon/Community_Page/static/Community_Page/community.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML &amp; CSS/join_a_community_page.css" beforeDir="false" afterPath="$PROJECT_DIR$/Hackathon/Community_Page/static/Community_Page/join_a_community_page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML &amp; CSS/join_a_community_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/Hackathon/Community_Page/templates/Community_Page/join_a_community_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML &amp; CSS/school_board_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/Hackathon/Community_Page/static/Community_Page/school_board_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hackathon/Community_Page/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hackathon/Community_Page/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hackathon/Forums/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hackathon/Forums/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hackathon/Hackathon/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hackathon/Hackathon/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hackathon/Home_Page/templates/Home_Page/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/Hackathon/Home_Page/templates/Home_Page/homepage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hackathon/Home_Page/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hackathon/Home_Page/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hackathon/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/Hackathon/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +23,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -31,15 +41,19 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Hackathon/Forums" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Hackathon/Community_Page/templates/Community_Page" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Michael\PycharmProjects\UofT-Hacks-VIII-Hack\Hackathon\Community_Page\templates\Community_Page" />
       <recent name="C:\Users\James Widjaja\OneDrive\Code\UofT-Hacks-VIII-Hack\Hackathon\Forums" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Michael\PycharmProjects\UofT-Hacks-VIII-Hack\Hackathon\Home_Page\static\Home_Page" />
       <recent name="C:\Users\Michael\PycharmProjects\UofT-Hacks-VIII-Hack\Hackathon\Home_Page\templates\Home_Page" />
+      <recent name="C:\Users\Michael\PycharmProjects\UofT-Hacks-VIII-Hack\Hackathon\Home_Page\templates" />
+      <recent name="C:\Users\Michael\PycharmProjects\UofT-Hacks-VIII-Hack\Hackathon\Community_Page\static\Community_Page" />
+      <recent name="C:\Users\Michael\PycharmProjects\UofT-Hacks-VIII-Hack\Hackathon\Community_Page\templates\Community_Page" />
+      <recent name="C:\Users\Michael\PycharmProjects\UofT-Hacks-VIII-Hack\Hackathon\Home_Page\static\Home_Page" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -54,7 +68,7 @@
       </list>
     </option>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="false" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -87,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613801250817</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Updating Hackathon">
+      <created>1613857688575</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1613857688575</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -95,28 +116,18 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
     <MESSAGE value="Adding Home Page app" />
     <MESSAGE value="Adding Home page app" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding Home page app" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="525" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1613809695647">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="525" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1613809695647" />
-    <state x="463" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1613809383112">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="463" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1613809383112" />
+    <MESSAGE value="Updating Hackathon" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updating Hackathon" />
   </component>
 </project>
