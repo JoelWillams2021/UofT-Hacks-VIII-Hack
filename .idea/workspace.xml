@@ -1,12 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec1f5a2e-fb2a-401e-8f81-2d19716b0d46" name="Default Changelist" comment="Updated Community page">
+    <list default="true" id="ec1f5a2e-fb2a-401e-8f81-2d19716b0d46" name="Default Changelist" comment="Updated Forums">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hackathon/Community_Page/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hackathon/Community_Page/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hackathon/Community_Page/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hackathon/Community_Page/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hackathon/Community_Page/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hackathon/Community_Page/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hackathon/Community_Page/static/Community_Page/community.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Hackathon/Forums/static/Forums/community.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hackathon/Community_Page/static/Community_Page/join_a_community_page.css" beforeDir="false" afterPath="$PROJECT_DIR$/Hackathon/Forums/static/Forums/join_a_community_page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hackathon/Community_Page/static/Community_Page/school_board_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/Hackathon/Forums/static/Forums/school_board_icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hackathon/Community_Page/templates/Community_Page/join_a_community_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/Hackathon/Forums/templates/Forums/join_a_community_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hackathon/Community_Page/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hackathon/Community_Page/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hackathon/Community_Page/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hackathon/Forums/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hackathon/Forums/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hackathon/Forums/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hackathon/Forums/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hackathon/Forums/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hackathon/Forums/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hackathon/Forums/templates/Forums/forums.html" beforeDir="false" afterPath="$PROJECT_DIR$/Hackathon/Forums/templates/Forums/forums.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hackathon/Home_Page/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hackathon/Home_Page/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hackathon/Home_Page/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hackathon/Home_Page/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hackathon/Forums/templates/Forums/topic_view.html" beforeDir="false" afterPath="$PROJECT_DIR$/Hackathon/Forums/templates/Forums/topic_view.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hackathon/Forums/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hackathon/Forums/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hackathon/Forums/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hackathon/Forums/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hackathon/Hackathon/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hackathon/Hackathon/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hackathon/Hackathon/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hackathon/Hackathon/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hackathon/Home_Page/templates/Home_Page/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/Hackathon/Home_Page/templates/Home_Page/homepage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hackathon/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UofThackathon/back_button.png" beforeDir="false" afterPath="$PROJECT_DIR$/Hackathon/Forums/static/Forums/back_button.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UofThackathon/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/UofThackathon/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,11 +64,11 @@
       <recent name="C:\Users\James Widjaja\OneDrive\Code\UofT-Hacks-VIII-Hack\Hackathon\Forums" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Michael\PycharmProjects\UofT-Hacks-VIII-Hack\Hackathon\Home_Page\templates\Home_Page" />
-      <recent name="C:\Users\Michael\PycharmProjects\UofT-Hacks-VIII-Hack\Hackathon\Home_Page\templates" />
+      <recent name="C:\Users\Michael\PycharmProjects\UofT-Hacks-VIII-Hack\Hackathon\Forums\static\Forums" />
+      <recent name="C:\Users\Michael\PycharmProjects\UofT-Hacks-VIII-Hack\Hackathon\Forums\templates\Forums" />
       <recent name="C:\Users\Michael\PycharmProjects\UofT-Hacks-VIII-Hack\Hackathon\Community_Page\static\Community_Page" />
-      <recent name="C:\Users\Michael\PycharmProjects\UofT-Hacks-VIII-Hack\Hackathon\Community_Page\templates\Community_Page" />
-      <recent name="C:\Users\Michael\PycharmProjects\UofT-Hacks-VIII-Hack\Hackathon\Home_Page\static\Home_Page" />
+      <recent name="C:\Users\Michael\PycharmProjects\UofT-Hacks-VIII-Hack\UofThackathon" />
+      <recent name="C:\Users\Michael\PycharmProjects\UofT-Hacks-VIII-Hack\Hackathon\Home_Page\templates\Home_Page" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -108,7 +130,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613866347926</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Updated Forums">
+      <created>1613871887787</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1613871887787</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -116,7 +145,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -129,6 +164,7 @@
     <MESSAGE value="Adding Home page app" />
     <MESSAGE value="Updating Hackathon" />
     <MESSAGE value="Updated Community page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated Community page" />
+    <MESSAGE value="Updated Forums" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Forums" />
   </component>
 </project>

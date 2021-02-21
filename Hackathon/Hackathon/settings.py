@@ -31,7 +31,6 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'Community_Page.apps.CommunityPageConfig',
     'Home_Page.apps.HomePageConfig',
     'Forums.apps.ForumsConfig',
     'django.contrib.admin',
