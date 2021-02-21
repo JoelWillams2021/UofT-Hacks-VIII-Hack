@@ -1,19 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec1f5a2e-fb2a-401e-8f81-2d19716b0d46" name="Default Changelist" comment="Updating Hackathon">
-      <change afterPath="$PROJECT_DIR$/Hackathon/Community_Page/urls.py" afterDir="false" />
+    <list default="true" id="ec1f5a2e-fb2a-401e-8f81-2d19716b0d46" name="Default Changelist" comment="Updated Community page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML &amp; CSS/community.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Hackathon/Community_Page/static/Community_Page/community.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML &amp; CSS/join_a_community_page.css" beforeDir="false" afterPath="$PROJECT_DIR$/Hackathon/Community_Page/static/Community_Page/join_a_community_page.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML &amp; CSS/join_a_community_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/Hackathon/Community_Page/templates/Community_Page/join_a_community_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML &amp; CSS/school_board_icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/Hackathon/Community_Page/static/Community_Page/school_board_icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hackathon/Community_Page/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hackathon/Community_Page/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hackathon/Forums/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hackathon/Forums/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hackathon/Hackathon/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hackathon/Hackathon/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hackathon/Home_Page/templates/Home_Page/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/Hackathon/Home_Page/templates/Home_Page/homepage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hackathon/Forums/templates/Forums/forums.html" beforeDir="false" afterPath="$PROJECT_DIR$/Hackathon/Forums/templates/Forums/forums.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hackathon/Home_Page/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hackathon/Home_Page/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hackathon/Home_Page/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hackathon/Home_Page/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hackathon/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/Hackathon/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613857688575</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Updated Community page">
+      <created>1613866347926</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1613866347926</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -128,6 +128,7 @@
     <MESSAGE value="Adding Home Page app" />
     <MESSAGE value="Adding Home page app" />
     <MESSAGE value="Updating Hackathon" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updating Hackathon" />
+    <MESSAGE value="Updated Community page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated Community page" />
   </component>
 </project>
